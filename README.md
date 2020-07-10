@@ -34,7 +34,8 @@ to learn about pipes
     * Ron   
     * Hermione 
     * Dumbledore 
-CLI --> $grep -o -i Pattern 'Harry Potter and the Goblet of Fire.txt' | wc -l
+    
+Solution: $grep -o -i Pattern 'Harry Potter and the Goblet of Fire.txt' | wc -l
 
 5. Print lines from 100 through 200 in the book
 
@@ -56,26 +57,26 @@ Solution: ps -o pid  &&   ps -o ppid
 
 3. List the top 3 processes by CPU usage.
 
-Ans: CLI-->  ps --sort=-pcpu | head -n 4
+Solution: CLI-->  ps --sort=-pcpu | head -n 4
 
 4. List the top 3 processes by memory usage.
-CLI--->  top -b -o +%MEM | head -10
+Solution:  top -b -o +%MEM | head -10
 
 5. Start a Python HTTP server on port 8000
-CLI--> python -m http.server 8000
+Solution: python -m http.server 8000
 
 6. Open another tab. Stop the process you started in previous step
 
 
 7. Start a Python HTTP server on port 90
-CLI---> python -m http.server 90
+Solution: python -m http.server 90
 
 8. Display all active connections and the corresponding TCP / UDP ports.
-CLI--> netstat -a | more
+Solution: netstat -a | more
 
 
 9. Find the pid of the process that is listening on port 5432
- CLI-sudo netstat -ltnp | grep -w ':5432'
+ Solution: sudo netstat -ltnp | grep -w ':5432'
 
 ____________
 
@@ -85,30 +86,31 @@ Use `apt` (Ubuntu) or `homebrew` (Mac) to:
 
 
 1. Install `git`, `vim` and `nginx`
-CLI--> sudo apt install git
 
-CLI--> sudo apt install vim
+Solution: sudo apt install git
 
-CLI--> sudo apt install nginx
+          sudo apt install vim
+
+          sudo apt install nginx
 
 2. Uninstall `nginx`
 
-CLI--> sudo apt-get --purge remove nginx
+Solution: sudo apt-get --purge remove nginx
 _____________
 
 ## Misc
 
 1. What's your local ip address?
 
-CLI- curl ifconfig.me
+Solution: curl ifconfig.me
 
 
 2. Find the ip address of `google.com`
 
-CLI--> nslookup www.google.com
+Solution: nslookup www.google.com
 
 3. Where is the `python` command located? What about `python3`?
 
-CLI---> env | grep PYTHONPATH
+Solution: env | grep PYTHONPATH
 
-CLI--> which python3
+Solution: which python3
