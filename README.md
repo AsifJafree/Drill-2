@@ -17,16 +17,6 @@ Ans: head -n 3 'Harry Potter and the Goblet of Fire.txt'
 3. Print the last 10 lines in the book
 solution : tail -n 10 'Harry Potter and the Goblet of Fire.txt'
 
-Use pipes to solve the following problems:
-
-Refer 
-
-* https://swcarpentry.github.io/shell-novice/04-pipefilter/index.html
-* https://ryanstutorials.net/linuxtutorial/piping.php
-* https://www.geeksforgeeks.org/piping-in-unix-or-linux/
-
-to learn about pipes
-
 
 4. How many times do the following words occur in the book?
 
